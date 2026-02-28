@@ -1,0 +1,32 @@
+{
+  "web_server": {
+    "bind_address": "127.0.0.1:8080",
+    "first_login_create_admin": true,
+    "first_login_assign_global_hosts": true,
+    "forwarded_header": {
+      "username_header": "X-Forwarded-User",
+      "auto_create_missing_user": true
+    },
+    "certificate": null,
+    "url_path_prefix": ""
+  },
+  "webrtc": {
+    "ice_servers": [
+      {
+        "urls": [
+          "turn:36.50.232.229:3478?transport=udp",
+          "turn:36.50.232.229:3478?transport=tcp",
+          "turns:36.50.232.229:5349?transport=tcp"
+        ],
+        "username": "test",
+        "credential": "test123"
+      }
+    ],
+    "port_range": null,
+    "nat_1to1": null,
+    "network_types": [
+      "udp4",
+      "udp6"
+    ]
+  }
+}
