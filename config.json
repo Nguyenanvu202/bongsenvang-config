@@ -3,6 +3,7 @@
     "bind_address": "127.0.0.1:8080",
     "first_login_create_admin": true,
     "first_login_assign_global_hosts": true,
+    "default_user_id": 642357272,
     "forwarded_header": {
       "username_header": "X-Forwarded-User",
       "auto_create_missing_user": true
