@@ -22,13 +22,13 @@
       },
       {
         "urls": [
-          "turn:14.225.222.227?transport=udp"
+          "turn:14.225.222.227:3478?transport=udp",
+          "turn:14.225.222.227:3478?transport=tcp"
         ],
         "username": "test",
         "credential": "test123"
       }
     ],
-    "iceTransportPolicy": "relay",
     "port_range": null,
     "nat_1to1": null,
     "network_types": [
