@@ -15,15 +15,15 @@
     "ice_servers": [
       {
         "urls": [
-          "stun:14.225.222.227:3478"
+          "stun:160.250.4.96:3478"
         ],
         "username": "test",
         "credential": "test123"
       },
       {
         "urls": [
-          "turn:14.225.222.227:3478?transport=udp",
-          "turn:14.225.222.227:3478?transport=tcp"
+          "turn:160.250.4.96:3478?transport=udp",
+          "turn:160.250.4.96:3478?transport=tcp"
         ],
         "username": "test",
         "credential": "test123"
