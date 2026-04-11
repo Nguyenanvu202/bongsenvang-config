@@ -22,8 +22,23 @@
       },
       {
         "urls": [
+          "stun:103.249.117.191:3478"
+        ],
+        "username": "test",
+        "credential": "test123"
+      },
+      {
+        "urls": [
           "turn:160.250.4.96:3478?transport=udp",
           "turn:160.250.4.96:3478?transport=tcp"
+        ],
+        "username": "test",
+        "credential": "test123"
+      },
+      {
+        "urls": [
+          "turn:103.249.117.191:3478?transport=udp",
+          "turn:103.249.117.191:3478?transport=tcp"
         ],
         "username": "test",
         "credential": "test123"
