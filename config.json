@@ -15,39 +15,29 @@
     "ice_servers": [
       {
         "urls": [
-          "stun:160.250.4.96:3478"
-        ],
-        "username": "test",
-        "credential": "test123"
-      },
-      {
-        "urls": [
-          "stun:103.249.117.191:3478"
-        ],
-        "username": "test",
-        "credential": "test123"
-      },
-      {
-        "urls": [
+          "stun:160.250.4.96:3478",
+          "stun:turn01.nguyentranviethung.org:3478",
           "turn:160.250.4.96:3478?transport=udp",
-          "turn:160.250.4.96:3478?transport=tcp"
-        ],
-        "username": "test",
-        "credential": "test123"
-      },
-      {
-        "urls": [
-          "turn:103.249.117.191:3478?transport=udp",
-          "turn:103.249.117.191:3478?transport=tcp"
+          "turn:160.250.4.96:3478?transport=tcp",
+          "turn:160.250.4.96:5349?transport=tcp",
+          "turns:160.250.4.96:5349?transport=tcp",
+          "turn:turn01.nguyentranviethung.org:3478?transport=udp",
+          "turn:turn01.nguyentranviethung.org:3478?transport=tcp",
+          "turn:turn01.nguyentranviethung.org:5349?transport=tcp",
+          "turns:turn01.nguyentranviethung.org:5349?transport=tcp"
         ],
         "username": "test",
         "credential": "test123"
       }
     ],
+    "iceTransportPolicy": "all",
     "port_range": null,
     "nat_1to1": null,
     "network_types": [
-      "udp4"
+      "udp4",
+      "tcp4",
+      "udp6",
+      "tcp6"
     ]
   }
 }
