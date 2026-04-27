@@ -1,6 +1,6 @@
 {
   "web_server": {
-    "bind_address": "127.0.0.1:8080",
+    "bind_address": "0.0.0.0:8080",
     "first_login_create_admin": true,
     "first_login_assign_global_hosts": true,
     "default_user_id": 4260928735,
@@ -16,15 +16,7 @@
       {
         "urls": [
           "stun:160.250.4.96:3478",
-          "stun:turn01.nguyentranviethung.org:3478",
-          "turn:160.250.4.96:3478?transport=udp",
-          "turn:160.250.4.96:3478?transport=tcp",
-          "turn:160.250.4.96:5349?transport=tcp",
-          "turns:160.250.4.96:5349?transport=tcp",
-          "turn:turn01.nguyentranviethung.org:3478?transport=udp",
-          "turn:turn01.nguyentranviethung.org:3478?transport=tcp",
-          "turn:turn01.nguyentranviethung.org:5349?transport=tcp",
-          "turns:turn01.nguyentranviethung.org:5349?transport=tcp"
+          "turn:160.250.4.96:3478"
         ],
         "username": "test",
         "credential": "test123"
