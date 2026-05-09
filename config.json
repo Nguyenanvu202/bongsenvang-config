@@ -15,8 +15,8 @@
     "ice_servers": [
       {
         "urls": [
-          "stun:160.250.4.96:3478",
-          "turn:160.250.4.96:3478"
+          "stun:{{computer_name}}.next-gpu.com:3478",
+          "turn:{{computer_name}}.next-gpu.com:3478"
         ],
         "username": "test",
         "credential": "test123"
